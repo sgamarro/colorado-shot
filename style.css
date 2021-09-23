@@ -89,7 +89,12 @@ p{
         margin: 8px 0;
         box-sizing: border-box;
       }
-    
+    footer{
+        font-style: italic;
+       text-align: center;
+       font-family: Georgia, 'Times New Roman', Times, serif;
+       filter: opacity(50%);
+    }
 
   /* .col2 {
     margin-top: 8px;
