@@ -4,6 +4,9 @@ h1{
     text-align: center;
     
 }
+h2{
+    font-family: 'Lobster', cursive;
+}
 body{
     background-color: rgb(200, 220, 220);
 }
@@ -67,7 +70,26 @@ p{
         vertical-align: middle;
         width: 100%;
       }
-
+      form {
+        max-width: 480px;
+        margin: 50px auto;
+        padding: 16px;
+        border: 1px solid #eaeaea;
+      }
+      input[type=text] {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        box-sizing: border-box;
+      }
+      
+      input[type=password]{
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        box-sizing: border-box;
+      }
+    
 
   /* .col2 {
     margin-top: 8px;
